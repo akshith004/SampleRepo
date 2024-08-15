@@ -1,13 +1,126 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <title>My web page</title>
-    </head>
-    <body>
-        <h1>Hello, world!</h1>
-        <p>This is my first web page.</p>
-        <p>It contains a 
-             <strong>main heading</strong> and <em> paragraph </em>.
-        </p>
-    </body>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>buttons</title>
+</head>
+<body>
+    <button class="sub-button">SUBSCRIBE</button>
+    <style>
+        .sub-button{
+            background-color: rgb(200, 6, 6);
+            color: white;
+            border :none;
+            padding-left: 15px;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            padding-right: 15px;
+            border-radius: 5px;
+            cursor: pointer;
+            margin-right: 8px;
+            transition: opacity 0.15s;
+        }
+        .sub-button:hover{
+            opacity: 0.6;
+        }
+        .sub-button:active{
+            opacity: 0.3;
+        }
+    </style>
+    <button class="Join">JOIN</button>
+    <style>
+        .Join{
+            color: blue;
+            padding-left: 15px;
+            padding-top: 9px;
+            padding-bottom: 9px;
+            padding-right: 15px;
+            border-radius: 5px;
+            border-color: blue;
+            background-color: white;
+            border-style: solid;
+            cursor: pointer;
+            margin-right: 8px;
+            transition: background-color 0.5s,
+                color 0.5s;
+        }
+        .Join:hover{
+            background-color: blue;
+            color: white;
+            font-weight: bold;
+        }
+        .Join:active{
+            opacity: 0.7;
+        }
+    </style>
+    <button class="Tw">Tweet</button>
+    <style>
+        .Tw{
+            padding-left: 15px;
+            padding-top: 8px;
+            padding-bottom: 8px;
+            padding-right: 15px;
+            background-color: rgb(0, 102, 197);
+            border: none;
+            color: white;
+            border-radius: 25px;
+            border-color: rgb(0, 102, 197);
+            cursor: pointer;
+            border-style: solid;
+            font-weight: bold;
+            font-size: 15px;
+            transition: box-shadow 0.5s;
+            
+        }
+        .Tw:hover{
+            box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2) ;
+        }
+    </style>
+    <button class="uber">Request now</button>
+    <style>
+        .uber{
+            height: 36px;
+            width: 112px;
+            background-color: black;
+            color: white;
+            font-weight: bold;
+            border: none;
+            border-radius: 3px;
+            margin-left:  8px;
+            cursor: pointer;
+
+        }
+    </style>
+    <button class="Amazon">Add to Cart</button>
+    <style>
+        .Amazon{
+            margin-left:8px;
+            height: 36px;
+            width: 200px;
+            background-color: rgb(245, 218, 84);
+            border: none;
+            font-weight: bold;
+            border-radius: 25px;
+            font-size: 15px;
+            cursor: pointer;
+        }
+    </style>
+    <button class="Github">Sign up</button>
+    <style>
+        .Github{
+            margin-left: 8px;
+            height: 36px;
+            width: 110px;
+            color: white;
+            background-color: rgb(46,164,79);
+            border: none;
+            border-radius: 5px;
+            font-weight: bold;
+            font-size: 17px;
+            cursor: pointer;
+        }
+    </style>
+
+</body>
 </html>
